@@ -1,4 +1,11 @@
 /*
+* @Author             : Huang
+* @E-mail             : huangxi0323@gmail.com
+* @Date               : 2017-09-29 11:20:54
+* @Last Modified by   : Huang
+* @Last Modified time : 2017-09-29 15:11:19
+*/
+/*
 * @ Author             : HUANGXI
 * @ E-mail             : huangxi0323@gmail.com
 * @ Date               : 2017-09-15 10:12:14
@@ -37,7 +44,7 @@ function LinkedList() {
 			var previous,
 				index   = 0,
 				current = head;
-			if (positon === 0) {
+			if (position === 0) {
 				head = current.next;
 			}
 			else{
